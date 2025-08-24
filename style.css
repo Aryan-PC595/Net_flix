@@ -89,6 +89,24 @@ nav{
     font-weight: 400;
     line-height: 2.5;
 }
+.email_and_get-started{
+    display: flex;
+}
+.email_input{
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.409);
+    width: 100%;
+    justify-items: left;
+    padding: 16px 24px 8px;
+    border-radius: 5px;
+}
+.email_input input{
+    width: 200%;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
 /* .separation{
 
     /* border: 2px solid white; */

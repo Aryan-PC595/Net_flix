@@ -14,7 +14,7 @@
         <nav>
             <span id="Netflix_logo"><img width="150" src="assets/logo.svg" alt="Netflix_logo"></span>
             <span>
-                <button>English</button>
+                <button><img src="assets/language_logo.svg">English<img src="assets/revers_triangle.svg"></button>
                 <button>Sing In</button>
             </span>
         </nav>
@@ -32,10 +32,19 @@
                     <span>
                         <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
                     </span>
-                    <div>
-                        <input type="text" placeholder="Email address">
-                        <button>Get Started</button>
-                    </div>
+                    <div class="email_and_get-started">
+                        <div  class="email_input">
+                            <div>
+                                <label for="eid">Email address</label>
+                            </div>
+                            <div>
+                                <input type="email" autocomplete="email" minlength="5" maxlength="50"  id="eid" dir="ltr">
+                            </div>
+                        </div class="email_input">
+                        <div class="get_started">
+                            <button>Get Started <img src="assets/Get_started_logo.svg"></button>
+                        </div class="get_started">
+                    </div class="email_and_get-started">
                 </div>
             </div>
             <div class="separation"></div>
